@@ -25,7 +25,7 @@ body{padding-bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .clinic td{padding:6px 0;vertical-align:top}
 .clinic td:first-child{width:96px;color:#fff;font-weight:600}
 .clinic .memo{font-size:15px;color:#a9c3b4;margin:8px 0 0}
-.clinic .btns{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:6px;border-radius:14px;overflow:hidden;background:#2f4f45}
+.clinic .btns{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0;margin-top:6px;border-radius:14px;overflow:hidden;background:#2f4f45}
 .clinic .btns a{color:#fff;text-decoration:none;text-align:center;padding:16px 8px;font-weight:700;font-size:18px}
 .clinic .btns a+a{border-left:1px solid rgba(255,255,255,.15)}
 .clinic .btns a:hover,.clinic .btns a:focus-visible{background:#3c6357}
