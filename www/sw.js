@@ -1,6 +1,6 @@
 // 오프라인 지원: 앱 파일을 캐시하고, 글꼴은 처음 받은 뒤 캐시에서 제공합니다.
-const CACHE = 'eye-v2';
-const CORE = ['./', './index.html', './dreamlens.html', './tabs.css', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png'];
+const CACHE = 'eye-v4';
+const CORE = ['./', './index.html', './dreamlens.html', './shingles.html', './dryeye.html', './tabs.css', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(CORE)).then(() => self.skipWaiting()));
 });

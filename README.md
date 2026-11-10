@@ -1,9 +1,11 @@
 # 연세우리안과 안내 앱
 
-환자 안내용 HTML 페이지를 앱으로 만든 프로젝트입니다. 화면 아래 탭으로 두 자료를 오갑니다.
+환자 안내용 HTML 페이지를 앱으로 만든 프로젝트입니다. 화면 아래 탭으로 네 자료를 오갑니다.
 
 - `www/index.html` — 백내장 수술 이야기 (첫 화면, `/`)
 - `www/dreamlens.html` — 우리 아이 드림렌즈 (`/dreamlens`)
+- `www/shingles.html` — 대상포진 예방접종 (`/shingles.html`)
+- `www/dryeye.html` — 안구건조증 IPL 치료 (`/dryeye.html`)
 - `www/tabs.css` — 하단 탭 모양
 
 자료를 하나 더 추가하려면 HTML을 `www/`에 넣고, 각 페이지의 `<nav class='apptabs'>`에 링크를 추가한 뒤 `www/sw.js`의 `CORE` 목록과 `CACHE` 버전을 고칩니다.
