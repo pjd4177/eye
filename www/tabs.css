@@ -39,3 +39,10 @@ body{padding-bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .end .doc-photo{margin:0 auto 10px}
 img.doc-photo,.hero img.doc-photo{width:min(230px,58vw)!important;max-width:none!important;height:auto!important;background:none!important;border-radius:0!important;box-shadow:none!important;margin:0 0 6px 0!important;object-fit:contain}
 .end img.doc-photo{margin:0 auto 10px!important}
+
+/* 사진은 왼쪽 작게, 이름은 오른쪽 */
+.doc-row{display:flex;align-items:center;gap:16px;margin:0 0 28px 0}
+.doc-row .who,.doc-row .sign{margin:0}
+.doc-row img.doc-photo,.hero .doc-row img.doc-photo,.end .doc-row img.doc-photo{width:84px!important;height:auto!important;margin:0!important;flex:none}
+.end .doc-row{justify-content:center}
+.end .doc-row .sign{text-align:left}
