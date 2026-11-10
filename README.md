@@ -4,7 +4,7 @@
 
 | 형태 | 방법 |
 |---|---|
-| **웹앱 (PWA)** | `main` 브랜치에 올리면 GitHub Pages로 배포됩니다. 휴대폰 브라우저에서 열고 "홈 화면에 추가"하면 앱처럼 설치되고, 한 번 열면 오프라인에서도 볼 수 있습니다. (저장소 Settings → Pages → Source를 **GitHub Actions**로 설정) |
+| **웹앱 (Vercel)** | [vercel.com/new](https://vercel.com/new)에서 이 저장소를 Import → 설정은 그대로 두고 Deploy. 이후 push할 때마다 자동 배포됩니다. 휴대폰에서 주소를 열고 "홈 화면에 추가"하면 앱처럼 설치되고 오프라인에서도 볼 수 있습니다. (배포 설정: `vercel.json`, 배포 폴더 `www`) |
 | **안드로이드 APK** | push할 때마다 Actions의 *Android APK* 작업이 APK를 빌드합니다. 실행 결과 페이지의 Artifacts에서 `cataract-story-debug-apk`를 받아 설치하세요. |
 | **iOS** | Mac에서 `npm ci && npx cap sync ios && npx cap open ios` 후 Xcode에서 빌드합니다. |
 
