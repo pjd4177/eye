@@ -33,3 +33,9 @@ body{padding-bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 @media print{.clinic{display:none}}
 .logo-top{display:flex;justify-content:center;align-items:center;padding:14px 16px;background:#fffdf7;border-bottom:1px solid #e6e6e6}
 .logo-top img{height:52px;width:auto;display:block}
+
+/* 원장 사진 (이름 바로 위) */
+.doc-photo{display:block;width:min(230px,58vw);height:auto;margin:0 0 6px 0;filter:drop-shadow(0 10px 22px rgba(20,40,60,.18))}
+.end .doc-photo{margin:0 auto 10px}
+img.doc-photo,.hero img.doc-photo{width:min(230px,58vw)!important;max-width:none!important;height:auto!important;background:none!important;border-radius:0!important;box-shadow:none!important;margin:0 0 6px 0!important;object-fit:contain}
+.end img.doc-photo{margin:0 auto 10px!important}
