@@ -46,3 +46,6 @@ img.doc-photo,.hero img.doc-photo{width:min(230px,58vw)!important;max-width:none
 .doc-row img.doc-photo,.hero .doc-row img.doc-photo,.end .doc-row img.doc-photo{width:60px!important;height:auto!important;margin:0!important;flex:none}
 .end .doc-row{justify-content:center}
 .end .doc-row .sign{text-align:left}
+/* 백내장 첫 화면: 사진을 글 윗부분에 맞춰 위로 */
+.hero .doc-row{align-items:flex-start}
+.hero .doc-row img.doc-photo{margin-top:-6px!important}
