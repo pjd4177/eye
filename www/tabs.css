@@ -1,0 +1,9 @@
+/* 하단 탭: 백내장 ↔ 드림렌즈 */
+.apptabs{position:fixed;left:0;right:0;bottom:0;z-index:30;display:flex;justify-content:center;gap:6px;padding:8px 12px calc(8px + env(safe-area-inset-bottom,0px));background:rgba(255,255,255,.94);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-top:1px solid #dfe3ee;font-family:'IBM Plex Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif}
+.apptabs a{flex:1;max-width:220px;display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 8px;border-radius:14px;text-decoration:none;color:#5f6681;font-size:13px;line-height:1.3;font-weight:600}
+.apptabs a svg{width:24px;height:24px}
+.apptabs a[aria-current=page]{color:#fff;background:var(--tabc,#1d6fa5)}
+.apptabs a:focus-visible{outline:3px solid #3b6fd8;outline-offset:2px}
+body{padding-bottom:calc(72px + env(safe-area-inset-bottom,0px))}
+@media (prefers-color-scheme:dark){.apptabs{background:rgba(20,24,40,.94);border-top-color:#2f3550}.apptabs a{color:#b4bad2}}
+@media print{.apptabs{display:none}body{padding-bottom:0}}

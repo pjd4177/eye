@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">백내장 수술 이야기</string>
-    <string name="title_activity_main">백내장 수술 이야기</string>
+    <string name="app_name">우리안과 안내</string>
+    <string name="title_activity_main">우리안과 안내</string>
     <string name="package_name">kr.yonseiwoori.cataract</string>
     <string name="custom_url_scheme">kr.yonseiwoori.cataract</string>
 </resources>

@@ -1,6 +1,12 @@
-# 백내장 수술 이야기 앱 (연세우리안과)
+# 연세우리안과 안내 앱
 
-환자 안내용 HTML 페이지(`www/index.html`)를 앱으로 만든 프로젝트입니다.
+환자 안내용 HTML 페이지를 앱으로 만든 프로젝트입니다. 화면 아래 탭으로 두 자료를 오갑니다.
+
+- `www/index.html` — 백내장 수술 이야기 (첫 화면, `/`)
+- `www/dreamlens.html` — 우리 아이 드림렌즈 (`/dreamlens`)
+- `www/tabs.css` — 하단 탭 모양
+
+자료를 하나 더 추가하려면 HTML을 `www/`에 넣고, 각 페이지의 `<nav class='apptabs'>`에 링크를 추가한 뒤 `www/sw.js`의 `CORE` 목록과 `CACHE` 버전을 고칩니다.
 
 | 형태 | 방법 |
 |---|---|
@@ -9,7 +15,7 @@
 | **iOS** | Mac에서 `npm ci && npx cap sync ios && npx cap open ios` 후 Xcode에서 빌드합니다. |
 
 ## 내용 수정
-1. `www/index.html`을 고칩니다.
+1. `www/` 안의 HTML을 고칩니다.
 2. `npx cap sync` (네이티브 앱에 반영)
 3. 웹앱 캐시를 새로 받게 하려면 `www/sw.js`의 `CACHE` 버전을 올립니다.
 
