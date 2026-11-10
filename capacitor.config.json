@@ -1,0 +1,11 @@
+{
+  "appId": "kr.yonseiwoori.cataract",
+  "appName": "백내장 수술 이야기",
+  "webDir": "www",
+  "backgroundColor": "#0e2232",
+  "android": { "backgroundColor": "#0e2232" },
+  "ios": { "backgroundColor": "#0e2232", "contentInset": "never" },
+  "plugins": {
+    "StatusBar": { "overlaysWebView": false, "style": "DARK", "backgroundColor": "#0e2232" }
+  }
+}
